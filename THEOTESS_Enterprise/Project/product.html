@@ -1,0 +1,145 @@
+
+ <!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Keywords" content="Tools, Materials, Artifacts, Products, Price, Units">
+<title>
+TheoTess Enterprise | Products     
+</title>
+    <link href="projectStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script>
+        function show_Time () {
+            
+            var today=new Date ();
+            
+            document.WebForm.inputForm.value=today.toLocaleString ();
+            
+            setInterval('show_Time ()', 1000);
+            
+        }
+        
+    </script>
+</head>    
+    
+<body>
+    <header>
+    <div class="container">
+    <div id="branding">
+        <a href="index.html"><h1><span class="highlight">THEOTESS</span> BUILDING MATERIALS ENTERPRISE</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About us </a></li>
+                <li><a href="contactus.html">Contact us </a></li>
+                <li><a href="crossreference.html">Cross Reference </a></li>
+            </ul>
+                </nav>
+        
+    </div>
+        </header>
+    
+    <section id="information">
+        <div class="container">
+            <h3>Subscribe for our Latest News</h3>
+            <form>
+    <input type="email" placeholder="Please Enter your email here"/> 
+                <button type="submit" class="first">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="boxes">
+        <div class="container">
+            <div class="row">
+                
+            <div class="col-sm-4">
+                    <a href="product.html"><img  src="Spade.jpg" alt="spade" width="180"/></a>
+                <h3>Spade</h3>
+                Quantity: 400 units. <br />
+                Price: GH$9.99 per unit
+            </div>
+            
+                
+            <div class="col-sm-4">
+         <a href="product.html"><img src="Wheelbarrow.jpeg" alt="Wheel Barrow" width="230" height = "100"/></a>
+                <h3>Wheel Barrow</h3>
+                Quantity: 70 units.<br />
+                Price: GH$15.99 per unit
+                </div>
+                
+                
+                <div class="col-sm-4">
+                    <a href="product.html"><img src="cement.jpeg" alt="Cement" width="120"/></a>
+                <h3>Cements</h3>
+                Quantity: 10,000 units.<br />
+                Price: GH$20.99 per unit
+            </div>
+                
+            </div>
+                
+            <div class="row">
+                <div class="col-sm-4">
+             <a  href="product.html"><img src="Iron%20Rods.jpg" alt="Iron Rods" width="210"/></a>
+                <h3>Iron Rods</h3>
+                Quantity: 800 units. <br />
+                Price: GH$14.99 per unit
+                </div>
+                
+                <div class="col-sm-4">
+         <a href="product.html"><img src="Paints.jpg" alt="Azar Paints" width="210"/></a>
+                <h3>Azar Paints</h3>
+                Quantity: 500 units. <br />
+                Price: GH$24.99 per unit
+            </div>
+                
+                <div class="col-sm-4">
+   <a href="product.html"><img src="roofing.png" alt="Iron roofing sheet" width="200"/></a>
+                <h3>Iron roofing sheet</h3>
+                Quantity: 100 units. <br />
+                Price: GH$39.99 per unit
+            </div>
+            </div>
+            
+            
+        </div>
+            
+    </section>
+    
+    
+    <div id="video">
+    <article>
+            <h3>This is an ad to show you how good our cement is</h3>
+            <video height="600" width="500" controls>
+                <source src="Depot.mp4" type="video/mp4">
+            </video>
+            </article>
+        
+    </div>
+    
+            
+   <footer onload="setInterval('show_Time ()', 1000);">
+               <p>Copyright &copy; Samuel Oliver Bedu-Annan<br /></p>
+                <p>Last modified: November 13, 2017<br /></p>
+        <script>
+ var today = new Date();
+ var date = today.toDateString ();
+document.write(date + "      ");    
+ var time = today.toLocaleTimeString();
+document.write (time);
+ </script>
+                
+            </footer>
+    
+    </body>
+        
+        
+</html>

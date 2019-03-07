@@ -1,0 +1,400 @@
+body {
+    font-family: Tahoma, serif;
+    font-size: 10px;
+    line-height:2.0; 
+    word-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(white, rgba(69,206,237, 1.0));
+}
+
+/*Global */
+.container {
+    
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    height: 38px;
+    background: cyan;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: brown;
+}
+/* Header*/
+
+header {
+    
+    background: -moz-linear-gradient(#5f2c82, #49a09d);
+    background: -o-linear-gradient(#5f2c82, #49a09d);
+    background: -webkit-linear-gradient(#5f2c82, #49a09d);
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: cyan 3px solid;
+    
+    
+→ 
+
+}
+
+header a {
+    
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+    
+}
+
+header #branding h1 {
+    margin: 0;
+    font-size: 16px;
+    padding-left: 0.1cm;
+    text-shadow: rgb(181, 211, 181) 2px 2px 1px,
+                 rgba(21, 21, 21, 0.66) 5px 5px 25px;    
+    
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+header .highlight 
+{
+    text-shadow: brown 2px 2px 1px,
+                 rgba(220, 20, 60, 0.66) 5px 5px 25px;
+}
+header .highlight, header .current a {
+    color: crimson;
+    font-weight: bold;
+}
+
+header a:link, header a:visited {
+    
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    
+}
+header a:hover, header a:active{
+    color: rgb(255, 64, 255);
+    font-weight: bold;
+}
+
+/*Section Main */
+section#Main {
+    min-height: 400px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-clip: content-box;
+    background-origin: content-box;
+    color: sandybrown;
+    text-align: center;
+}
+
+section#Main hgroup {
+    color: black;
+}
+
+
+section#Main h1 {
+    margin-top: 100px;
+    font-size: 90px;
+    margin-bottom: 10px;
+    color: 	hsla(348, 83%, 47%, 1.0);
+}
+
+h1 {
+    font: 400% 'Oswald', arial, sans-serif;
+}
+
+span#first {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span#second {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+span#third {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+span#fourth {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+span#fifth {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+span#sixth {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+section#Main p {
+    font-size: 20px;
+}
+
+section#information {
+    
+    padding: 15px;
+    color: white;
+   background: -moz-linear-gradient(#1d2b64, #f8cdda);
+    background: -o-linear-gradient(#1d2b64, #f8cdda);
+    background: -webkit-linear-gradient(#1d2b64, #f8cdda);
+}
+
+/*Email and Information*/
+#information h3{
+    float: left;
+    font-size: 20px;
+}
+
+#information form {
+    float: right;
+    margin-top: 15px;
+}
+
+#information input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#information h2{
+    float: left;
+    font-size: 20px;
+}
+
+/*Boxes*/
+#boxes {
+    margin-top: 20px; 
+}
+
+#boxes .box {
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    
+}
+
+
+.row a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: rotate(-40deg) scale(0.8, 0.8) translate(20px, -100px);
+    box-shadow: rgb(101, 101, 101) 10px 10px 25px;
+}
+
+div.roof {
+    position: absolute;
+    top: 530px;
+    left: 100px;
+    width: 80%;
+}
+
+div#video h3 {
+    
+    
+    color: peru;
+    margin-bottom: 0px;
+    font-style: italic; 
+    font-size: 30px;
+}
+
+section#main h2.page-title {
+    float: none;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+section#main h3.page-title {
+    float: none;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+section#main h2#tle {
+    float: none;
+    padding-left: 130px;
+    font-size: 30px;
+}
+
+div.video video {
+    margin-top: none;
+}
+
+article#main-col h4 {
+    font-size: 30px;
+}
+
+article#main-col ul li:first-of-type {
+list-style-image: url(logo1.jpg);    
+}
+
+article#main-col ul li:nth-of-type(2) {
+list-style-image: url(logo2.jpg);    
+}
+
+article#main-col ul li:last-of-type {
+list-style-image: url(logo3.jpg);    
+}
+
+
+pre#cement > span {
+    position: absolute;
+    top: 460px;
+    left: 50px;
+}
+
+pre#roofing + p {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+pre#painting {
+    position: absolute;
+    top: 880px;
+    left: 50px;
+}
+
+pre#iron {
+    
+    position: absolute;
+    top: 880px;
+    left: 390px;
+}
+
+.small {
+    margin-top: 30px;
+}
+
+#des {
+    font-variant: small-caps;
+}
+
+blockquote#block {
+    text-indent: 50px;
+    font-style: italic;
+}
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+    
+    
+}
+
+div.formRow > * {
+    -webkit-flex: 1 1 150px;
+}
+
+form#questions {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    
+        
+}
+
+form#questions input {
+    width: 250px;
+    height: 45px;
+}
+
+form#questions textarea#message {
+    height: 100px;
+}
+
+form#questions > fieldset {
+          background-color: deepskyblue;
+          border-radius: 20px;
+          font-size: 0.85em;
+          padding: 10px;
+          margin: 10px;
+    height: 380px;
+}
+
+legend {
+        background-color: rgb(179, 20, 25);
+        color: white;
+        padding: 5px;
+}
+
+form#questions div.buttons {
+    text-align: center;
+    width: 100%;
+    height: 350px
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
+
+input:focus, textarea:focus {
+    background-color: cornflowerblue;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background: -moz-linear-gradient(#fc354c, #0abfbc);
+    background: -o-linear-gradient(#fc354c, #0abfbc);
+    background: -webkit-linear-gradient(#fc354c, #0abfbc);  
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgb(51, 51, 51) 15px 0px 25px,
+                rgb(51, 51, 51) -15px 0px 25px;
+}

@@ -1,0 +1,84 @@
+
+ <!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+<title>
+TheoTess Enterprise | About Us    
+</title>
+    <link href="projectStyle.css" rel="stylesheet" />
+    
+    <script>
+        function show_Time () {
+            
+            var today=new Date ();
+            
+            document.WebForm.inputForm.value=today.toLocaleString ();
+            
+        }
+        
+    </script>
+</head>    
+    
+<body>
+    <header>
+    <div class="container">
+    <div id="branding">
+        <a href="index.html"><h1><span class="highlight">THEOTESS</span> BUILDING MATERIALS ENTERPRISE</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="product.html">Products</a></li>
+                <li><a href="aboutus.html">About us </a></li>
+                <li><a href="contactus.html">Contact us </a></li>
+                <li><a href="crossreference.html">Cross Reference </a></li>
+            </ul>
+                </nav>
+        
+    </div>
+        </header>
+    
+    <section id="information">
+        <div class="container">
+            <h2>Subscribe for our Latest News</h2>
+            <form>
+    <input type="email" placeholder="Please Enter your email here"/> 
+                <button type="submit" class="first">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="main">
+        <h2 id="tle">About Us</h2>
+        <div class="container">
+            <article id="main-col">
+                <h3 class="page-title"> The Best In Business</h3>
+                <blockquote id="block">We are an award-winning nation-wide company really dedicated to our customers. We do deliveries for every product you order and our products are very durable. They're the best you can wish for and you can afford them at very reasonable prices. We do recommend you to make your orders during the weekdays as our working hours vary during the weekends and might delay the processing of the order.
+                    We do recommend you to sign up for our newsletter feed to keep you updated on the latest products in stock and also updates on prices of goods. Do not hesitate to contact us by email or telephone call. We'll kindly recieve you with our warmest welcome and give you the best attention. Thanks for checking our site!</blockquote>
+            </article>
+        </div>
+        
+    </section>
+    
+    
+            
+ <footer onload="setInterval ('show_Time ()', 1000);">
+             <p>Copyright &copy; Samuel Oliver Bedu-Annan<br /></p>
+                <p>Last modified: November 13, 2017<br /></p>
+        <script>
+ var today = new Date();
+ var date = today.toDateString ();
+document.write(date + "      ");    
+ var time = today.toLocaleTimeString();
+document.write (time);
+ </script>
+                
+            </footer>
+    
+    </body>
+        
+        
+</html>
